@@ -1,0 +1,69 @@
+body {
+  background-color: #fffdf5;
+  font-family: "Geneva", sans-serif;
+  font-size: 20px;
+  line-height: 2.5;
+  color: #e88641;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  font-style: italic;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #783302;
+  font-weight: 700;
+}
+
+h6 {
+  color: #783302;
+  text-align: center;
+}
+
+.solo-bengal {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.small-img {
+  width: 900px;
+}
+
+.wrap-img {
+  float: left;
+  width: 700px;
+  height: auto;
+  margin: 0 16px 16px 0;
+}
+
+.wrap-img-right {
+  float: right;
+  width: 500px;
+  height: auto;
+  margin: 0 0 16px 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul {
+  list-style-type: "🐆 ";
+  padding-left: 2.5em;
+}
